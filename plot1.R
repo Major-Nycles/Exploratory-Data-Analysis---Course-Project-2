@@ -41,7 +41,8 @@ legend("topright",
        col = "red",
        title = "Linear Regression Equation")
 
-dev.copy(png, file = "plot1.png", width = 480, height = 480)
+## Create PNG
+dev.copy(png, file = "plot1.png", width = 650, height = 650)
 dev.off()
 
 
